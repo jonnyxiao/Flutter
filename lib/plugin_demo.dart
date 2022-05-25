@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class PluginDemo {
+  void main(){}
+
   static const MethodChannel _channel = MethodChannel('plugin_demo');
 
   static Future<String?> get platformVersion async {
